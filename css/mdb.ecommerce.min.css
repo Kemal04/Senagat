@@ -1,0 +1,22 @@
+ .product-gallery {
+    position: relative
+}
+
+ .product-gallery .figur:not(.main-img) {
+    position: absolute;
+    left: 0;
+    right: 0;   
+}
+
+ .product-gallery .gallery-item {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out
+}
+
+ .product-gallery .gallery-item:hover {
+    cursor: pointer !important
+}
+
+ .product-gallery .main-img {
+    overflow: hidden
+}

@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kemal">
+    <meta name="decription" content="...">
+    <meta name="keywords" content="...">
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" type="image/icon" href="img/logo.svg">
+    <title>Yokar Tilsimat</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.solid.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+
+    <div class="bg-light py-3">
+        <div class="container">
+            <div class="row no-gutters align-items-center">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 d-none-lg d-block-md">
+                    <a onclick="openNav()" class="h4 d-none-lg d-block-md text-dark" style="font-weight: 500;">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn text-dark" onclick="closeNav()">&times;</a>
+                        <ul class="navbar-nav d-flex justify-content-around">
+                            <li class="nav-item dropdown mb-3-md ml-3">
+                                <a class="nav-link text-dark" href="#" data-toggle="dropdown">Services</a>
+                                <ul class="dropdown-menu rounded-0 border-0">
+                                    <li class="mb-3">
+                                        <a class="dropdown-item" href="#"> Продукция из стекла <i
+                                                class="fas fa-angle-right ml-1"></i></a>
+                                        <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                            <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                            <li>
+                                                <a class="dropdown-item mb-3" href="#"> Молотый каустический доломит<i
+                                                    class="fas fa-angle-right ml-1"></i> </a>
+                                                <ul class="submenu dropdown-menu rounded-0">
+                                                    <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a></li>
+                                                    <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                                    <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                                    <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                                    <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                                    <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                                    <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a></li>
+                                                    <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a></li>
+                                                    <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                                    <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="mb-3">
+                                        <a class="dropdown-item" href="#"> Продукция из железа <i
+                                                class="fas fa-angle-right ml-1"></i></a>
+                                        <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                            <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="dropdown-item" href="#"> Цемент и сыпучие материалы <i
+                                                class="fas fa-angle-right ml-1"></i></a>
+                                        <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                            <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="dropdown-item" href="#"> Бетонные панели <i
+                                                class="fas fa-angle-right ml-1"></i></a>
+                                        <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                            <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="dropdown-item" href="#"> Железобетонные изделия <i
+                                                class="fas fa-angle-right ml-1"></i></a>
+                                        <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                            <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="dropdown-item" href="#"> Керамзит <i
+                                                class="fas fa-angle-right ml-1"></i></a>
+                                        <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                            <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="dropdown-item" href="#"> Газобетон <i
+                                                class="fas fa-angle-right ml-1"></i></a>
+                                        <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                            <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="dropdown-item" href="#"> Полиэтилен и пропилен <i
+                                                class="fas fa-angle-right ml-1"></i></a>
+                                        <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                            <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="dropdown-item" href="#"> Посуда из полипропилена <i
+                                                class="fas fa-angle-right ml-1"></i></a>
+                                        <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                            <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="dropdown-item" href="#"> Облицовочные плиты <i
+                                                class="fas fa-angle-right ml-1"></i></a>
+                                        <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                            <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a>
+                                            </li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item mb-3-md ml-3">
+                                <a class="nav-link text-dark" href="#">Производители</a>
+                            </li>
+                            <li class="nav-item mb-3-md ml-3">
+                                <a class="nav-link text-dark" href="#">Новости</a>
+                            </li>
+                            <li class="nav-item mb-3-md ml-3">
+                                <a class="nav-link text-dark" href="#">О нас</a>
+                            </li>
+                            <li class="nav-item mb-3-md ml-3">
+                                <a class="nav-link text-dark" href="#">Доставка и оплата</a>
+                            </li>
+                            <li class="nav-item mb-3-md ml-3">
+                                <a class="nav-link text-dark" href="#">Доставка</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 mb-3">
+                    <a href="">
+                        <img src="img/logo.svg" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 mb-3 order-3 order-lg-0 order-md-0 order-sm-0 d-none-sm d-none-md">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control border-0" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                        <div class="input-group-prepend">
+                            <a href="" class="text-decoration-none input-group-text bg-blue text-white" id="basic-addon1"><i
+                                    class="fas fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 mb-3 order-2 order-lg-0 order-md-0 order-sm-0 d-flex justify-content-end align-items-center h3">
+                    <a href="" class="text-decoration-none text-dark mr-3 img-none">
+                        <img src="img/user.svg" class="img-fluid">
+                    </a>
+                    <a href="" class="text-decoration-none text-dark mr-3">
+                        <img src="img/shopping-cart.svg" class="img-fluid">
+                    </a>
+                    <a href="" class="text-decoration-none text-dark mt-3 h4 dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TM</a>
+                    <div class="dropdown-menu border-0 shadow">
+                        <a class="dropdown-item" href="#">RU</a>
+                        <a class="dropdown-item" href="#">EN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-blue py-lg-3 py-md-0 py-0 d-none-md d-none-sm" id="navbar">
+        <div class="container">
+            <button class="navbar-toggler mb-3 d-none-sm d-none-md" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown mb-3-md mr-5 pro-mr-0">
+                        <a class="nav-link text-white line" href="#" data-toggle="dropdown">Services</a>
+                        <ul class="dropdown-menu rounded-0 mt-3 py-4 px-3">
+                            <li class="mb-3">
+                                <a class="dropdown-item" href="#"> Продукция из стекла <i
+                                        class="fas fa-angle-right ml-1"></i></a>
+                                <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                    <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                    <li>
+                                        <a class="dropdown-item mb-3" href="#"> Молотый каустический доломит<i
+                                            class="fas fa-angle-right ml-1"></i> </a>
+                                        <ul class="submenu dropdown-menu rounded-0">
+                                            <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                            <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="mb-3">
+                                <a class="dropdown-item" href="#"> Продукция из железа <i
+                                        class="fas fa-angle-right ml-1"></i></a>
+                                <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                    <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mb-3">
+                                <a class="dropdown-item" href="#"> Цемент и сыпучие материалы <i
+                                        class="fas fa-angle-right ml-1"></i></a>
+                                <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                    <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mb-3">
+                                <a class="dropdown-item" href="#"> Бетонные панели <i
+                                        class="fas fa-angle-right ml-1"></i></a>
+                                <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                    <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mb-3">
+                                <a class="dropdown-item" href="#"> Железобетонные изделия <i
+                                        class="fas fa-angle-right ml-1"></i></a>
+                                <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                    <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mb-3">
+                                <a class="dropdown-item" href="#"> Керамзит <i class="fas fa-angle-right ml-1"></i></a>
+                                <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                    <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mb-3">
+                                <a class="dropdown-item" href="#"> Газобетон <i class="fas fa-angle-right ml-1"></i></a>
+                                <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                    <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mb-3">
+                                <a class="dropdown-item" href="#"> Полиэтилен и пропилен <i
+                                        class="fas fa-angle-right ml-1"></i></a>
+                                <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                    <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mb-3">
+                                <a class="dropdown-item" href="#"> Посуда из полипропилена <i
+                                        class="fas fa-angle-right ml-1"></i></a>
+                                <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                    <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mb-3">
+                                <a class="dropdown-item" href="#"> Облицовочные плиты <i
+                                        class="fas fa-angle-right ml-1"></i></a>
+                                <ul class="submenu dropdown-menu ml-3 rounded-0">
+                                    <li><a class="dropdown-item mb-3" href="#"> Песчано-гравийная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Цемент </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый щебень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Мытый песок </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Камень бутовый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок дробленый </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Щебеночно-песчанная смесь </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Песок из отсевов дробления </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Гипсовый камень </a></li>
+                                    <li><a class="dropdown-item mb-3" href="#"> Молотый каустический доломит </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mb-3-md mx-5 pro-mr-0">
+                        <a class="nav-link text-white line" href="#">Производители</a>
+                    </li>
+                    <li class="nav-item mb-3-md mx-5 pro-mr-0">
+                        <a class="nav-link text-white line" href="#">Новости</a>
+                    </li>
+                    <li class="nav-item mb-3-md mx-5 pro-mr-0">
+                        <a class="nav-link text-white line" href="#">О нас</a>
+                    </li>
+                    <li class="nav-item mb-3-md mx-5 pro-mr-0">
+                        <a class="nav-link text-white line" href="#">Доставка и оплата</a>
+                    </li>
+                    <li class="nav-item mb-3-md ml-5 pro-mr-0">
+                        <a class="nav-link text-white line" href="#">Доставка</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container pt-4">
+        <ol class="breadcrumb small mb-4 bg-white p-0">
+            <li class="breadcrumb-item"><a href="" class="text-secondary">Baş sahypa</a></li>
+            <li class="breadcrumb-item"><a href="" class="text-secondary">Detektiw</a></li>
+        </ol>
+
+        <div class="h2 mb-5 font-weight-bold">Цемент и сыпучие материалы</div>
+
+        <div class="d-flex justify-content-between align-self-center mb-3 border-bottom pb-2">
+            <a onclick="openNav()" class="h4 d-none-lg" style="font-weight: 500;">Фильтр</a>
+            <div class="h4 d-none-sm" style="font-weight: 500;">Фильтр</div>
+            <div>20 товаров</div>
+        </div>
+
+        <!-- SIDEBAR SECTION -->
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="col-md-4 order-md-1 col-lg-3 sidebar-filter">
+                <h6 class="text-uppercase font-weight-bold mb-3">Тип</h6>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-1.1">
+                        <label class="custom-control-label" for="category-1.1">Цемент</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-2.1">
+                        <label class="custom-control-label" for="category-2.1">Песчано-гравийная смесь</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-3.1">
+                        <label class="custom-control-label" for="category-3.1">Мытый щебень</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-4.1">
+                        <label class="custom-control-label" for="category-4.1">Мытый песок</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-5.1">
+                        <label class="custom-control-label" for="category-5.1">Камень бутовый</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-6.1">
+                        <label class="custom-control-label" for="category-6.1">Песок дробленый</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-7.1">
+                        <label class="custom-control-label" for="category-7.1">Щебеночно-песчанная смесь</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-8.1">
+                        <label class="custom-control-label" for="category-8.1">Песок из отсевов дробления</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-9.1">
+                        <label class="custom-control-label" for="category-9.1">Гипсовый камень</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-10.1">
+                        <label class="custom-control-label" for="category-10.1">Молотый каустический</label>
+                    </div>
+                </div>
+
+                <div class="divider mt-5 mb-5 border-bottom border-cal"></div>
+                <h6 class="text-uppercase mt-5 mb-3 font-weight-bold">Вес, кг</h6>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-size-1.1">
+                        <label class="custom-control-label" for="filter-size-1.1">25</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-size-2.1">
+                        <label class="custom-control-label" for="filter-size-2.1">50</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-size-3.1">
+                        <label class="custom-control-label" for="filter-size-3.1">100</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-size-4.1">
+                        <label class="custom-control-label" for="filter-size-4.1">150</label>
+                    </div>
+                </div>
+
+                <div class="divider mt-5 mb-5 border-bottom border-cal"></div>
+                <h6 class="text-uppercase mt-5 mb-3 font-weight-bold">Размер гранул, мм</h6>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-mm-1.1">
+                        <label class="custom-control-label" for="filter-mm-1.1">0.1 - 0.5</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-mm-2.1">
+                        <label class="custom-control-label" for="filter-mm-2.1">0.5 - 1.0</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-mm-3.1">
+                        <label class="custom-control-label" for="filter-mm-3.1">1.0 - 2.0</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-mm-4.1">
+                        <label class="custom-control-label" for="filter-mm-4.1">2.0 - 3.0</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-mm-5.1">
+                        <label class="custom-control-label" for="filter-mm-5.1">3.0 - 4.0</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-mm-6.1">
+                        <label class="custom-control-label" for="filter-mm-6.1">4.0 - 5.0</label>
+                    </div>
+                </div>
+
+                <div class="divider mt-5 mb-5 border-bottom border-cal"></div>
+                <h6 class="text-uppercase mt-5 mb-3 font-weight-bold">Производитель</h6>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-name-1.1">
+                        <label class="custom-control-label" for="filter-name-1.1">Türkmendemirönümleri</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-name-2.1">
+                        <label class="custom-control-label" for="filter-name-2.1">Цементный завод «Bäherden»</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-name-3.1">
+                        <label class="custom-control-label" for="filter-name-3.1">Цементный завод «Lebap»</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-name-4.1">
+                        <label class="custom-control-label" for="filter-name-4.1">Геоктепинское карьерное
+                            управление</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-name-5.1">
+                        <label class="custom-control-label" for="filter-name-5.1">Балканское карьерное
+                            управление</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-name-6.1">
+                        <label class="custom-control-label" for="filter-name-6.1">Койтендагское карьерное
+                            управление</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-name-7.1">
+                        <label class="custom-control-label" for="filter-name-7.1">Галайморское карьерное
+                            хозяйство</label>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- SIDEBAR SECTION -->
+        <div class="d-flex justify-content-end mb-3">
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Сортировка
+                </button>
+                <div class="dropdown-menu rounded-0" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 order-md-2 col-lg-9">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6 col-md-6 col-lg-4 mb-3">
+                            <a href="" class="card w-100 border-0 text-decoration-none text-dark">
+                                <img src="img/card/beton (1).png" class="img-fluid">
+                                <div class="card-body">
+                                    <p class="card-text font-14">Песок дробленый обогащенный (0.16x5 мм)</p>
+                                    <h5 class="card-title font-weight-bolder">250 TMT</h5>
+                                    <a href="" class="btn bg-green text-white font-weight-bold ">В корзину</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-4 mb-3">
+                            <a href="" class="card w-100 border-0 text-decoration-none text-dark">
+                                <img src="img/card/beton (2).png" class="img-fluid">
+                                <div class="card-body">
+                                    <p class="card-text font-14">Песок дробленый обогащенный (0.16x5 мм)</p>
+                                    <h5 class="card-title font-weight-bolder">250 TMT</h5>
+                                    <a href="" class="btn bg-green text-white font-weight-bold">В корзину</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-4 mb-3">
+                            <a href="" class="card w-100 border-0 text-decoration-none text-dark">
+                                <img src="img/card/beton (3).png" class="img-fluid">
+                                <div class="card-body">
+                                    <p class="card-text font-14">Песок дробленый обогащенный (0.16x5 мм)</p>
+                                    <h5 class="card-title font-weight-bolder">250 TMT</h5>
+                                    <a href="" class="btn bg-green text-white font-weight-bold">В корзину</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-4 mb-3">
+                            <a href="" class="card w-100 border-0 text-decoration-none text-dark">
+                                <img src="img/card/beton (4).png" class="img-fluid">
+                                <div class="card-body">
+                                    <p class="card-text font-14">Песок дробленый обогащенный (0.16x5 мм)</p>
+                                    <h5 class="card-title font-weight-bolder">250 TMT</h5>
+                                    <a href="" class="btn bg-green text-white font-weight-bold">В корзину</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-4 mb-3">
+                            <a href="" class="card w-100 border-0 text-decoration-none text-dark">
+                                <img src="img/card/yasalgy (1).png" class="img-fluid">
+                                <div class="card-body">
+                                    <p class="card-text font-14">Песок дробленый обогащенный (0.16x5 мм)</p>
+                                    <h5 class="card-title font-weight-bolder">250 TMT</h5>
+                                    <a href="" class="btn bg-green text-white font-weight-bold">В корзину</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-4 mb-3">
+                            <a href="" class="card w-100 border-0 text-decoration-none text-dark">
+                                <img src="img/card/yasalgy (2).png" class="img-fluid">
+                                <div class="card-body">
+                                    <p class="card-text font-14">Песок дробленый обогащенный (0.16x5 мм)</p>
+                                    <h5 class="card-title font-weight-bolder">250 TMT</h5>
+                                    <a href="" class="btn bg-green text-white font-weight-bold">В корзину</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-4 mb-3">
+                            <a href="" class="card w-100 border-0 text-decoration-none text-dark">
+                                <img src="img/card/yasalgy (3).png" class="img-fluid">
+                                <div class="card-body">
+                                    <p class="card-text font-14">Песок дробленый обогащенный (0.16x5 мм)</p>
+                                    <h5 class="card-title font-weight-bolder">250 TMT</h5>
+                                    <a href="" class="btn bg-green text-white font-weight-bold">В корзину</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-4 mb-3">
+                            <a href="" class="card w-100 border-0 text-decoration-none text-dark">
+                                <img src="img/card/yasalgy (4).png" class="img-fluid">
+                                <div class="card-body">
+                                    <p class="card-text font-14">Песок дробленый обогащенный (0.16x5 мм)</p>
+                                    <h5 class="card-title font-weight-bolder">250 TMT</h5>
+                                    <a href="" class="btn bg-green text-white font-weight-bold">В корзину</a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-4 mb-3">
+                            <a href="" class="card w-100 border-0 text-decoration-none text-dark">
+                                <img src="img/card/sonky (1).png" class="img-fluid">
+                                <div class="card-body">
+                                    <p class="card-text font-14">Песок дробленый обогащенный (0.16x5 мм)</p>
+                                    <h5 class="card-title font-weight-bolder">250 TMT</h5>
+                                    <a href="" class="btn bg-green text-white font-weight-bold">В корзину</a>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mb-5 mt-5">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item mr-2"><a class="page-link rounded-0 text-dark" href="#">1</a></li>
+                                <li class="page-item mr-2"><a class="page-link rounded-0 text-dark" href="#">2</a></li>
+                                <li class="page-item mr-2">
+                                    <a class="page-link rounded-0 text-dark" href="#" aria-label="Next">
+                                        <span aria-hidden="true"><i class="fas fa-angle-right"></i></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 order-md-1 col-lg-3 sidebar-filter d-none-sm">
+                <h6 class="text-uppercase font-weight-bold mb-3">Тип</h6>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-1">
+                        <label class="custom-control-label" for="category-1">Цемент</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-2">
+                        <label class="custom-control-label" for="category-2">Песчано-гравийная смесь</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-3">
+                        <label class="custom-control-label" for="category-3">Мытый щебень</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-4">
+                        <label class="custom-control-label" for="category-4">Мытый песок</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-5">
+                        <label class="custom-control-label" for="category-5">Камень бутовый</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-6">
+                        <label class="custom-control-label" for="category-6">Песок дробленый</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-7">
+                        <label class="custom-control-label" for="category-7">Щебеночно-песчанная смесь</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-8">
+                        <label class="custom-control-label" for="category-8">Песок из отсевов дробления</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-9">
+                        <label class="custom-control-label" for="category-9">Гипсовый камень</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="category-10">
+                        <label class="custom-control-label" for="category-10">Молотый каустический</label>
+                    </div>
+                </div>
+
+                <div class="divider mt-5 mb-5 border-bottom border-cal"></div>
+                <h6 class="text-uppercase mt-5 mb-3 font-weight-bold">Вес, кг</h6>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-size-1">
+                        <label class="custom-control-label" for="filter-size-1">25</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-size-2">
+                        <label class="custom-control-label" for="filter-size-2">50</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-size-3">
+                        <label class="custom-control-label" for="filter-size-3">100</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-size-4">
+                        <label class="custom-control-label" for="filter-size-4">150</label>
+                    </div>
+                </div>
+
+                <div class="divider mt-5 mb-5 border-bottom border-cal"></div>
+                <h6 class="text-uppercase mt-5 mb-3 font-weight-bold">Размер гранул, мм</h6>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-mm-1">
+                        <label class="custom-control-label" for="filter-mm-1">0.1 - 0.5</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-mm-2">
+                        <label class="custom-control-label" for="filter-mm-2">0.5 - 1.0</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-mm-3">
+                        <label class="custom-control-label" for="filter-mm-3">1.0 - 2.0</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-mm-4">
+                        <label class="custom-control-label" for="filter-mm-4">2.0 - 3.0</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-mm-5">
+                        <label class="custom-control-label" for="filter-mm-5">3.0 - 4.0</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-mm-6">
+                        <label class="custom-control-label" for="filter-mm-6">4.0 - 5.0</label>
+                    </div>
+                </div>
+
+                <div class="divider mt-5 mb-5 border-bottom border-cal"></div>
+                <h6 class="text-uppercase mt-5 mb-3 font-weight-bold">Производитель</h6>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-name-1">
+                        <label class="custom-control-label" for="filter-name-1">Türkmendemirönümleri</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-name-2">
+                        <label class="custom-control-label" for="filter-name-2">Цементный завод «Bäherden»</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-name-3">
+                        <label class="custom-control-label" for="filter-name-3">Цементный завод «Lebap»</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-name-4">
+                        <label class="custom-control-label" for="filter-name-4">Геоктепинское карьерное
+                            управление</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-name-5">
+                        <label class="custom-control-label" for="filter-name-5">Балканское карьерное управление</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter-name-6">
+                        <label class="custom-control-label" for="filter-name-6">Койтендагское карьерное
+                            управление</label>
+                    </div>
+                </div>
+                <div class="mt-2 mb-2 font-14">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="filter--6">
+                        <label class="custom-control-label" for="filter--6">Галайморское карьерное хозяйство</label>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg-light py-5 mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6" style="font-size: 18px; font-weight: 700;">
+                    Подписывайтесь на наши новости и рассылку
+                </div>
+                <div class="col-lg-6 col-md-6 mt-3">
+                    <div class="input-group mb-3">
+
+                        <input type="text" class="form-control border-0" placeholder="E-mail" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                        <div class="input-group-prepend">
+                            <a href="" class="input-group-text border-0 text-decoration-none text-dark" id="basic-addon1" style="background: #FEEB34; font-size: 9px;
+                            ">Подписаться</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5" style="background-color: #1275CA;">
+        <div class="container">
+            <div class="row text-white font-14">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                    <div class="h5 mb-3">Услуги для покупателей</div>
+                    <div><a href="" class="text-decoration-none text-white">Контакты</a></div>
+                    <div><a href="" class="text-decoration-none text-white">Заказ</a></div>
+                    <div><a href="" class="text-decoration-none text-white">Доставка и стоимость доставки</a></div>
+                    <div><a href="" class="text-decoration-none text-white">Возврат товара</a></div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+                    <div class="h5 mb-3">Каталог</div>
+                    <div><a href="" class="text-decoration-none text-white">Продукция из стекла</a></div>
+                    <div><a href="" class="text-decoration-none text-white">Продукция из железа</a></div>
+                    <div><a href="" class="text-decoration-none text-white">Цемент</a></div>
+                    <div><a href="" class="text-decoration-none text-white">Сыпучие материалы</a></div>
+                    <div><a href="" class="text-decoration-none text-white">Бетонные панели</a></div>
+                    <div><a href="" class="text-decoration-none text-white">Железобетонные изделия</a></div>
+                    <div><a href="" class="text-decoration-none text-white">Керамзит</a></div>
+                    <div><a href="" class="text-decoration-none text-white">Газобетон</a></div>
+                    <div><a href="" class="text-decoration-none text-white">Полиэтилен и пропилен</a></div>
+                    <div><a href="" class="text-decoration-none text-white">Посуда из полипропилена</a></div>
+                    <div><a href="" class="text-decoration-none text-white">Облицовочные плиты</a></div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6 mt-5-sm">
+                    <div class="h5 mb-3">О нас</div>
+                    <div><a href="" class="text-decoration-none text-white">Производители</a></div>
+                    <div><a href="" class="text-decoration-none text-white">Наша ответственность</a></div>
+                    <div><a href="" class="text-decoration-none text-white">Оптовые продажи</a></div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-6 text-center mt-5">
+                    <div class="h5 mb-3">Скачивайте приложение</div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <a href="">
+                                <img src="img/apps/google.svg" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <a href="">
+                                <img src="./img/apps/apple.svg" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>AOS.init();</script>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+
+        function openNav2() {
+            document.getElementById("mySidenav2").style.width = "250px";
+        }
+
+        function closeNav2() {
+            document.getElementById("mySidenav2").style.width = "0";
+        }
+    </script>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+
+</html>
